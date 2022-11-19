@@ -38,7 +38,7 @@ const addManager = () => {
             const manager = new Manager(name, id, email, phoneNum);
             teamArray.push(manager);
             console.log(manager);
-        })
+        });
 };
 
 // juniorDeveloper and seniorEngineer 
@@ -93,19 +93,17 @@ const addEmployee = () => {
                 return addEmployee(teamArray);
             } else {
                 return teamArray;
-            }
-        })
-}
+            };
+        });
+};
 
-// Write to HTML
 const writeFile = data => {
     fs.writeFile('./dist/index.html', data, err => {
         console.log(data),
             err ? console.log(err) : console.log('Successfully created HTML file'.underline.green)
-    })
-}
+    });
+};
 
-// Add input to as needed
 addManager()
     .then(addEmployee).then(teamArray => {
         return generateHTML(teamArray);
