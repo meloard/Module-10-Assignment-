@@ -9,7 +9,7 @@ const managersCard = function(manager) {
             <div class="card-body">
                 <p class="id">ID: ${manager.id}</p>
                 <p class="email">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
-                <p class="office">Phone Number: ${manager.phoneNum}</p>
+                <p class="phone">Phone Number: ${manager.phoneNum}</p>
             </div>
         </div>
     </div>`
