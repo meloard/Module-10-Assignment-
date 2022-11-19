@@ -1,0 +1,30 @@
+{
+  "name": "module-10-assignment-",
+  "version": "1.0.0",
+  "description": "Module 10 Assignment - Team Profile Generator - Node",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meloard/Module-10-Assignment-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meloard/Module-10-Assignment-/issues"
+  },
+  "homepage": "https://github.com/meloard/Module-10-Assignment-#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^9.1.4",
+    "jest": "^29.3.1"
+  }
+}
